@@ -64,7 +64,6 @@ def scoreTosses(numPlayers, tosses):
             playerList[i+1] = tPlayer
             tossesList[i+1] = tTosses
             
-            
     
     for i in range(numPlayers):
         answer += f'{playerList[i]}-{scoreList[i]} '
